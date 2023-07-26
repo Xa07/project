@@ -3,9 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cart</title>
+    <link href="../../css/bootstrap.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../CSS/Style.css">
+        <nav class="navbar">
+            <a href="#">
+                <h1>MY CART</h1>
+            </a>
+            <a href="home.html" class="cart-nav">
+                <i class='bx bxs-home bx-lg' ></i></a>
+            </nav>
 </head>
 <body>
-    
+    <div class="cart">
+        <div class="container">
+            <div class="row" id="cart-rem">
+            </div> 
+        </div>
+        <br>
+        <div class="last">
+            <div class="block">
+                <div class="td">
+                    <h3 class="total">Total Amount: <span id="cost">₹0.0</span></h3>
+                    <button  class="btn-order" onclick="Order()">Order</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../JAVASCRIPT/Function.js"></script>
+    <script src="../../js/bootstrap.bundle.min.js"></script>
 </body>
-</html>
+</html>  
